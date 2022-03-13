@@ -1,3 +1,5 @@
+const catSprites = "../imgs/cats/CatSpriteSheet.png";
+
 
 class Example extends Phaser.Scene {
     
@@ -9,7 +11,7 @@ class Example extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('cat', 'https://github.com/Asaedry/portfolio/tree/main/Resources/imgs/cats/CatSpriteSheet.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet('cat', catSprites, { frameWidth: 32, frameHeight: 32 });
     }
 
     create () {

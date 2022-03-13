@@ -1,4 +1,4 @@
-const currentPage = Array.from(document.head.children);
+const catSprites = "../imgs/cats/CatSpriteSheet.png";
 
 class Example extends Phaser.Scene {
     
@@ -10,7 +10,7 @@ class Example extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('cat', 'main/Resources/imgs/cats/CatSpriteSheet.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet('cat', catSprites, { frameWidth: 32, frameHeight: 32 });
     }
 
     create () {
