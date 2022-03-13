@@ -1,4 +1,4 @@
-const catSprites = "../imgs/cats/CatSpriteSheet.png";
+const catSprites = "../Resources/imgs/cats/CatSpriteSheet.png";
 
 class Example extends Phaser.Scene {
     
