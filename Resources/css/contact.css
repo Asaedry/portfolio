@@ -18,7 +18,6 @@ html {
 }
 
 body {
-    font-size: 1em;
     background-color: #5c5c5c;
     color: black; /*rgb(218, 213, 213);*/
     left: 0;
@@ -82,6 +81,15 @@ li {
     }
 }
 
+@media only screen and (max-width: 500px){
+    body {
+        margin-left: -.5rem;
+    }
+    #locations {
+        margin-left: 0;
+    }
+}
+
 canvas {
     margin-left: -4rem;
     margin-bottom: -6px;
@@ -89,7 +97,7 @@ canvas {
 }
 
 footer{
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

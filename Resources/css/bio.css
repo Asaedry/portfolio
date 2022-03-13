@@ -98,13 +98,16 @@ canvas {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        margin-left: 0;
     }
     header h1 {
         display: block;
+        margin-left: -.25em;
     }
 }
 #projects {
     margin-left: 5rem;
+    margin-bottom: 2rem;
 }
 
 h3 {
@@ -123,9 +126,11 @@ a {
     text-align: center;
     width: 50%;
     margin-left: 24%;
+    margin-bottom: 5rem;
 }
 
 .skills-container {
+    margin-top: 1.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -138,7 +143,7 @@ a {
 }
 
 footer {
-    position: absolute;
+    position:fixed;
     left: 0;
     bottom: 0;
     width: 100%;
