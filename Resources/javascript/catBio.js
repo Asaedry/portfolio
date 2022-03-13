@@ -10,7 +10,7 @@ class Example extends Phaser.Scene {
     }
 
     preload() {
-        this.load.spritesheet('cat', 'portfolio/tree/main/Resources/imgs/cats/CatSpriteSheet.png', { frameWidth: 32, frameHeight: 32 });
+        this.load.spritesheet('cat', 'tree/main/Resources/imgs/cats/CatSpriteSheet.png', { frameWidth: 32, frameHeight: 32 });
     }
 
     create () {
